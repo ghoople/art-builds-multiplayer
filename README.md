@@ -7,3 +7,5 @@ based on a NAF Easty RTC Adapter Network adapter fork: https://github.com/open-e
 I'm deploying on Heroku at https://art-builds.herokuapp.com/
 
 Edit examples/index.html to import your own models.  
+
+Host your models on Github to deploy them correctly 

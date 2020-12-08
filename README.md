@@ -15,7 +15,7 @@ Host your models on Github to deploy them correctly
 "browser-only" branch is configured to work well with mobile or computer based browsers (Deployed on Heroku https://art-builds.herokuapp.com/) 
 
 "oculus-vr" branch is configured to work with the Oculus Quest 2 headset and controllers only.  (Deployed on Heroku https://art-builds-vr.herokuapp.com/) 
-- This was adapted from https://github.com/TakashiYoshinaga/Oculus-Quest-Input-Sample
+- This was adapted from https://github.com/TakashiYoshinaga/Oculus-Quest-Interaction-Sample
 
 I tried to combining these two, but there are issues with the camera rig needed for teleportation and WASD controllers for the keyboard.
 

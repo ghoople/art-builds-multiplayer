@@ -157,8 +157,8 @@
     adapter: easyrtc;" physics="debug: false; gravity: 0; restitution: 0.9; " background="color: #AAAAAA">
     <a-assets>
 		<!-- Add model files to asset list here, host them on github. Must also load them below --> 
-		<a-asset-item id="aboutTime" src="https://raw.githubusercontent.com/ghoople/artbuilds/main/about-time/About_Time.gltf"></a-asset-item>
-      
+		<a-asset-item id="aboutTime" src="https://raw.githubusercontent.com/ghoople/art-builds-multiplayer/oculus-vr/models/Sri_Yantra_v4.gltf"></a-asset-item>
+
 		<!-- Avatar Template-->
 		<template id="avatar-template" type="text/html">
 			<a-entity class="avatar" networked-audio-source>
@@ -181,7 +181,7 @@
 	</a-entity>
  
 	<!-- Setup the evironment. Other environments: yavapai, forest, egypt --> 
-	<a-entity environment="preset: yavapai; dressingAmount: 500"></a-entity> 
+	<a-entity environment="preset: forest; dressingAmount: 500"></a-entity> 
 
     <!-- Add player with browser controls --> 
 		<a-entity id="playerHead" 
